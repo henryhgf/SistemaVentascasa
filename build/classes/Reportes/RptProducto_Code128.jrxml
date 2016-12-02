@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="550" pageHeight="800" columnWidth="324" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b0ab02f3-272b-451a-ade6-f768ce40d24b">
+	<property name="ireport.zoom" value="1.9487171000000014"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="1036"/>
+	<parameter name="codigo" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="800" splitType="Stretch">
+			<componentElement>
+				<reportElement x="16" y="70" width="80" height="50" uuid="256eece2-2126-4c41-9d0e-e65df0bbd5fc"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="128" y="70" width="80" height="50" uuid="6041b4b9-6f21-405e-ae26-ec3a0d314352"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="226" y="70" width="80" height="50" uuid="9c92afd4-dde7-4fec-ad03-507cf6ca6022"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="128" y="50" width="85" height="20" uuid="52d99c97-d631-47f5-b056-037f5e275373"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="50" width="85" height="20" uuid="42ae03fd-c0ab-4d0e-a3c8-0beff11bc2d1"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="326" y="70" width="80" height="50" uuid="76384277-df3c-4859-a9a5-29a22d13f176"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="331" y="50" width="85" height="20" uuid="08baa253-e5e1-477a-a518-46d7125e7a28"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="430" y="70" width="80" height="50" uuid="a2547db9-4465-4f01-80b9-be5bf4fa8550"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="50" width="85" height="20" uuid="0a9f95e6-da06-4b66-ab8a-4178406371b0"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="158" width="80" height="50" uuid="a07f8e7a-244b-4deb-9928-36c237359e10"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="138" width="85" height="20" uuid="7d1217d8-2974-4466-873b-ffae82b3ac07"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="128" y="158" width="80" height="50" uuid="d6f34d2e-91e8-4844-ad7a-67591b7ae9a3"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="128" y="138" width="85" height="20" uuid="5dfbecea-c0dd-4245-933f-6b8fc5e35c74"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="226" y="158" width="80" height="50" uuid="6b8aa93d-5afa-40ad-9e95-9fb6ca86fd22"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="226" y="138" width="85" height="20" uuid="732214d0-6add-4ae7-9768-b869ac0c2685"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="326" y="158" width="80" height="50" uuid="66c1c9c4-5fbf-4b72-bb5b-308fe6d60fde"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="326" y="138" width="85" height="20" uuid="afc2fbbe-be6a-498e-8b6f-22092fe80014"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="430" y="158" width="80" height="50" uuid="59746e1b-8a01-4615-8c26-a0b1e8897a1c"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="138" width="85" height="20" uuid="af92a442-6792-4e2d-9711-ab2ff2238be7"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="21" y="252" width="80" height="50" uuid="337254ac-489e-4609-a5a3-1fe702d8382d"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="232" width="85" height="20" uuid="45934716-3b15-4088-9f3c-6e0db5bfb990"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="128" y="252" width="80" height="50" uuid="a65c10ef-6097-4d76-876c-b356a3c3fcaf"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="226" y="252" width="80" height="50" uuid="bd06acc3-de39-497a-9655-65dc31633c2d"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="326" y="252" width="80" height="50" uuid="3dbc68d8-7ee5-474f-b408-600812e202cd"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="128" y="232" width="85" height="20" uuid="75d5574d-8c8b-4b45-a492-2aac1e90dac4"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="232" width="85" height="20" uuid="ad26b02d-cf60-47dd-8d5d-c4f19ba0bc71"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="232" width="85" height="20" uuid="0737c06a-14a9-48dc-b8f7-003faeba45f8"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="430" y="252" width="80" height="50" uuid="17b61c1f-c934-48a8-9625-af0106ffcf28"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="232" width="85" height="20" uuid="08bfa20c-e7ae-4988-a778-726c9c5fc2ec"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="339" width="80" height="50" uuid="8053f4da-4aac-465f-b116-fd63dd2f9fc8"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="128" y="339" width="80" height="50" uuid="d3c50227-2aa5-40ea-9a46-e4d1fc91cef2"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="226" y="339" width="80" height="50" uuid="9da71d5c-4e1b-4206-878a-00c30e9f9036"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="319" width="85" height="20" uuid="ecc1b265-adfb-4315-aecb-bde5830d7fb0"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="319" width="85" height="20" uuid="d4120db3-3ef3-47a3-9fd0-47717e2d28d7"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="319" width="85" height="20" uuid="c76d6c01-6f31-4efc-ab94-640f3fa6e6d0"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="331" y="339" width="80" height="50" uuid="1a35f759-d367-4cd6-bb4f-23276a297fb9"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="331" y="319" width="85" height="20" uuid="301f4b7e-3757-4e10-85a2-c9595fdfe7a2"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="430" y="339" width="80" height="50" uuid="b53496d2-7e62-4186-bdb8-a34e043d46ab"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="319" width="85" height="20" uuid="b6bfd9ef-09d0-47fb-b06a-43461e13b856"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="434" width="80" height="50" uuid="50ddc4d3-2725-4287-987f-aa4db9229a53"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="133" y="434" width="80" height="50" uuid="104fc911-f830-4475-9328-cb589c17c635"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="226" y="434" width="80" height="50" uuid="17875d7c-b255-4f8c-b8e9-a7b8a1e32328"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="326" y="434" width="80" height="50" uuid="19f8fd72-e26d-4a0e-b829-16bfd9259872"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="430" y="434" width="80" height="50" uuid="7ff4bcf6-fe2b-4f04-96b9-c46583996f10"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="414" width="85" height="20" uuid="9f405749-5ab4-48a9-b8ff-b168f091a78e"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="414" width="85" height="20" uuid="d4771c53-ee40-4047-b415-c92b8cbd4e75"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="414" width="85" height="20" uuid="48d7e6b5-b1f6-4f50-9eb9-7ef2e4336550"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="414" width="85" height="20" uuid="62b16a2c-4705-45c4-90bf-0e06417dead4"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="414" width="85" height="20" uuid="b4ea29cd-a91a-4a2c-8ad4-c9085f306f06"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="527" width="80" height="50" uuid="b272ec8c-17d1-4d1b-bb63-0979917be862"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="507" width="85" height="20" uuid="7c153f87-a1d1-4e6b-a27e-84b98ac31364"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="128" y="527" width="80" height="50" uuid="ef7de202-200f-4bd8-8626-1b7d283e80eb"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="226" y="527" width="80" height="50" uuid="1cdf36dc-b3f7-41f6-9b8e-56bb48c2252c"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="326" y="527" width="80" height="50" uuid="f3ec116c-fe84-46e6-8f9a-fa14ed867c84"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="430" y="527" width="80" height="50" uuid="3dc0a8fd-f201-490e-83d1-ce48ed1ae4c9"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="507" width="85" height="20" uuid="746e960a-c9a5-4d60-99cd-b2c63cfef0a6"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="507" width="85" height="20" uuid="d7fd2f31-30d9-4dd0-a42b-a57aaeff52c6"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="507" width="85" height="20" uuid="e9924b56-de79-4649-90d2-d624c9656984"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="507" width="85" height="20" uuid="3ef74ebd-8637-4088-ba3c-f1c51e87a1a7"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="620" width="80" height="50" uuid="35c0c987-9939-42c7-8cb9-e1264dd7b111"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="600" width="85" height="20" uuid="b24b44b4-648d-453d-8ecf-c4b24dc1ab70"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="128" y="620" width="80" height="50" uuid="1693976c-203c-4c68-a981-554276161e2a"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="128" y="600" width="85" height="20" uuid="c03eea26-2b72-436e-9642-2e37db589ba6"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="226" y="620" width="80" height="50" uuid="1075b84b-e197-4eda-9459-770391108f4a"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="226" y="600" width="85" height="20" uuid="417e6ce3-f6f3-4078-b5e8-7de4122ceb60"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="600" width="85" height="20" uuid="426ff534-ef98-4141-933e-dd7de9e9309a"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="326" y="620" width="80" height="50" uuid="3b8bb8fd-d409-4f68-834d-bd648016586e"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="430" y="620" width="80" height="50" uuid="eee02f4c-4006-4493-9052-8af1e503d945"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="600" width="85" height="20" uuid="748cbad6-d8bd-4af8-aee1-3cc44ebf3a3e"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="50" width="85" height="20" uuid="ddce4bfe-e1f1-4ca8-b206-1ff43a8294f9"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="16" y="715" width="80" height="50" uuid="c65b44c4-8467-48b1-8a15-260d5beaaa50"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="16" y="695" width="85" height="20" uuid="521b161f-1b0d-466d-8af2-97c4182aeefe"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="128" y="715" width="80" height="50" uuid="5976befb-d966-4277-8320-d3eea07c7c8d"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="128" y="695" width="85" height="20" uuid="292acd99-90e5-4892-a8dd-b1438bdb85f9"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="226" y="715" width="80" height="50" uuid="98f01388-0698-41dc-be56-60c1c659dade"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="226" y="695" width="85" height="20" uuid="e3c8e04b-e936-4f58-a150-788baa1fc97b"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="695" width="85" height="20" uuid="65c58f7e-38cd-48b3-b17d-67f6e8bab3b8"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="326" y="715" width="80" height="50" uuid="c2a9b6dd-4b08-4796-9bd9-2fa98946aecb"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="430" y="715" width="80" height="50" uuid="4ae1afa8-d5d7-4bdf-a675-3323b30c62f7"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="true" checksumRequired="false" barWidth="1" barHeight="60">
+					<jr:codeExpression><![CDATA[$P{codigo}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="430" y="695" width="85" height="20" uuid="f6e64fb5-bb78-4813-b9c0-443b6c93e29f"/>
+				<text><![CDATA[Mundo Recarga]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
